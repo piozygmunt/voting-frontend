@@ -1,0 +1,32 @@
+.proc-list-item {
+    padding:10px;
+    padding-bottom:3.5rem;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.prop-name {
+    font-weight: 700;
+}
+
+.circular-prog {
+    position:absolute;
+    top:10px;
+    right:20px;
+}
+
+.buttons {
+    position:absolute !important;
+    bottom:10px;
+    right:30px;
+}
+
+
+.buttons a, .buttons a:hover {
+    text-decoration: none;
+}
+.add-proc-btn {
+    position:fixed;
+    right: 30px;
+    bottom: 20px;
+}

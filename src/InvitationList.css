@@ -1,0 +1,25 @@
+.inv-list-item {
+    padding:10px;
+    position: relative;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.finished:hover {
+    opacity:1;
+}
+
+.finished {
+    opacity: 0.6;
+}
+
+.prop-name {
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+}
+

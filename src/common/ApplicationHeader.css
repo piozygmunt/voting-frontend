@@ -1,0 +1,15 @@
+.headerLink {
+color: white;
+font-size: 1rem;
+margin-left: 10px
+}
+
+.headerLink:hover, .headerLink:focus {
+    color:white;
+    text-decoration: none;
+}
+
+.menu-link, .menu-link:hover {
+    color:black;
+    text-decoration: none;
+}

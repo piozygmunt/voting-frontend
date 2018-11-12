@@ -1,0 +1,122 @@
+.fixed-chat {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    max-width: 35%;
+    min-width: 35%;
+    background-color:white;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:10px 0 10px 10px;
+}
+
+
+.chat .chat-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+    height:40px;
+}
+
+.chat .chat-header h3 {
+    text-align: center;
+    margin-right:10px;
+}
+
+.chat .chat-box {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px 0;
+}
+
+.chat .message-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chat .message-list li {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+}
+
+.chat .message-list li .msg-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.chat .message-list li .msg-author {
+    align-self: flex-start;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.chat .message-list li .msg-content {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat .message-list li .msg-timestamp {
+    display: flex;
+    align-self: flex-end;
+    font-size: 0.7em;
+    padding: 3px 7px;
+
+}
+
+.chat .message-list li .msg-author-avatar {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50%;
+    min-height: 1.6em;
+    min-width: 1.6em;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.chat .date-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.chat .divider {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.chat .date {
+    position: absolute;
+    top: -1em;
+    background: white;
+    padding: 5px;
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+.right .msg-wrapper {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.right .msg-timestamp {
+    align-self: flex-start;
+}
+
+
+

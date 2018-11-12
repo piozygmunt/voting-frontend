@@ -1,0 +1,16 @@
+.imgitem {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.noVoteFound {
+    text-align: center
+}
+.voteList {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.vote-container {
+    text-align: center;
+}
